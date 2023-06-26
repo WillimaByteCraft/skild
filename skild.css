@@ -20,9 +20,11 @@
     font-family: "Euclid Circular A";
     background: #f9f9f9;
     color: #f9f9f9;
+    pointer-events: none;
+  }
+  nav{
     pointer-events: all;
   }
-  
   .navbar {
     position: fixed;
     bottom: 0;
@@ -80,6 +82,7 @@ section{
 	position: absolute;
 	width: 250px;
 	height: 300px;
+	pointer-events:none;
 }
 .slides::after {
 	content: '';
