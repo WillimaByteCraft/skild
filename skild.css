@@ -62,7 +62,7 @@ section{
     justify-content: center;
     scroll-snap-align: start;
    */ 
-   pointer-events:all;
+
    
    width: 100%;
 }
