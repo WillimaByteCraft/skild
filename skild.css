@@ -20,7 +20,7 @@
     font-family: "Euclid Circular A";
     background: #f9f9f9;
     color: #f9f9f9;
-    pointer-events: none;
+    /*pointer-events: none;*/
   }
   
   .navbar {
@@ -33,7 +33,7 @@
     height: 72px;
     background: #17181a;
     width: 100%;
-    pointer-events: all;
+    /*pointer-events: all;*/
   }
   
   .navbar h1 {
