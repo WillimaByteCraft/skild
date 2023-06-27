@@ -18,13 +18,11 @@
   body {
     margin: 0;
     font-family: "Euclid Circular A";
-    background: #f9f9f9;
+    background: #3a3a3a;
     color: #f9f9f9;
-    pointer-events: all;
+  
   }
-  nav{
-    pointer-events: all;
-  }
+  
   .navbar {
     position: fixed;
     bottom: 0;
@@ -35,7 +33,7 @@
     height: 72px;
     background: #17181a;
     width: 100%;
-    pointer-events: all;
+
   }
   
   .navbar h1 {
@@ -63,7 +61,7 @@ section{
     align-items: center;
     justify-content: center;
     scroll-snap-align: start;
-   */ 
+   */
 
    
    width: 100%;
@@ -75,14 +73,56 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    /* pointer-events: all; */
   }
+/* Quiz Section */
+#quiz-container {
+  width: 400px;
+  margin: 0 auto;
+  background-color: #4c5b6c;
+  border: solid 5px darkgray;
+}
+#quiz-container h1 {
+  text-align: center;
+  color: darkgray;
+}
+
+
+#question {
+  margin-bottom: 20px;
+  margin-left: 5%;
+}
+
+#choices {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+#choices label {
+  margin-bottom: 10px;
+}
+
+#submit-btn {
+  background-color: #48b1bf;
+  border-radius: 12px;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-left: 40%;
+}
+
+#result {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
 /* skild slideshow */
-.slides {
+/* .slides {
 	position: absolute;
 	width: 250px;
 	height: 300px;
-	pointer-events:none;
 }
 .slides::after {
 	content: '';
@@ -158,11 +198,12 @@ section{
 		visibility: hidden;
 		z-index: 0;
 	}
-}
+} */
 
 
 .two{
     background: linear-gradient(to bottom, #537895,#537895), url('#');
+    /* pointer-events: all; */
 }
 
   
